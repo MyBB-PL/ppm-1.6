@@ -1,0 +1,26 @@
+<?php
+/**
+ * MyBB 1.6.16 Polish Language Pack
+ * Copyright © 2008-2014 MyBBoard.pl Team
+ * See readme.html for copyright information. | Zapoznaj sie z plikiem czytaj_to.html.
+ * Autorzy: bryn, DamYan, gigi, matc, szulcu | Testerzy: hippie
+ */
+
+$l['nav_showteam'] = "Ekipa forum";
+$l['forum_team'] = "Ekipa forum";
+$l['moderators'] = "Moderatorzy";
+$l['mod_username'] = "Użytkownik";
+$l['mod_forums'] = "Działy";
+$l['mod_email'] = "E-mail";
+$l['mod_pm'] = "PW";
+$l['uname'] = "Użytkownik";
+$l['email'] = "E-mail";
+$l['pm'] = "PW";
+
+$l['group_leaders'] = "Liderzy";
+$l['group_members'] = "Członkowie";
+
+$l['no_members'] = "W tej grupie nie ma użytkowników.";
+
+$l['error_noteamstoshow'] = "Nie ma nikogo do wyświetlenia.";
+?>
