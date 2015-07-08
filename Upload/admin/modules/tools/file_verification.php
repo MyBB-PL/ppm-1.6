@@ -37,7 +37,7 @@ if(!$mybb->input['action'])
 		
 		$page->output_header($lang->file_verification." - ".$lang->checking);
 		
-		$file = explode("\n", fetch_remote_file("http://www.mybb.com/checksums/release_mybb_{$mybb->version_code}.txt"));
+		$file = explode("\n", fetch_remote_file("https://dev.mybboard.pl/checksums/ppm_{$mybb->version_code}.txt"));
 		
 		if(strstr($file[0], "<?xml") !== false || empty($file[0]))
 		{
