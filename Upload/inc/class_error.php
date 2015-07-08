@@ -333,6 +333,10 @@ class errorHandler {
 		{
 			$message = "Błąd SQL: {$message['error_no']} - {$message['error']}\nZapytanie: {$message['query']}";
 		}
+
+		// Do not log something that might be executable
+		$message = str_replace('<?', '< ?', $message);
+
 		$error_data = "<error>\n";
 		$error_data .= "\t<dateline>".TIME_NOW."</dateline>\n";
 		$error_data .= "\t<script>".$file."</script>\n";
